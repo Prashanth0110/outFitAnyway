@@ -18,7 +18,7 @@ from streamlit_utils import *
 # Page config
 st.set_page_config(
     page_title="Outfit Anyway - Virtual Try-On",
-    page_layout="wide",
+    layout="wide",
     initial_sidebar_state="expanded"
 )
 
