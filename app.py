@@ -195,7 +195,6 @@ def process_pose_change(pose_prompt, pose_changer_image, token):
 
 # Title and description
 st.markdown("# 👔 Outfit Anyway: Best Customer Try-On You Ever See")
-st.markdown("**Join discord to know more about** [heybeauty prebuy vton solution](https://discord.com/invite/QgJWCtSG58)")
 
 # Initialize session state
 if 'processing' not in st.session_state:
