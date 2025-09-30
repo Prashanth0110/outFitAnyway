@@ -3,7 +3,7 @@ import cv2
 import os
 import time
 import random
-
+from utils import *
 # CRITICAL: Set OpenCV threading to single thread BEFORE importing MTCNN
 cv2.setNumThreads(0)
 os.environ["OMP_NUM_THREADS"] = "1"
