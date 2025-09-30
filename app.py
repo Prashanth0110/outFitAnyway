@@ -4,8 +4,6 @@ import os
 import time
 import random
 
-from utils import *
-
 # CRITICAL: Set OpenCV threading to single thread BEFORE importing MTCNN
 cv2.setNumThreads(0)
 os.environ["OMP_NUM_THREADS"] = "1"
@@ -20,7 +18,7 @@ from streamlit_utils import *
 # Page config
 st.set_page_config(
     page_title="Outfit Anyway - Virtual Try-On",
-    layout="wide",
+    page_layout="wide",
     initial_sidebar_state="expanded"
 )
 
@@ -197,6 +195,8 @@ def process_pose_change(pose_prompt, pose_changer_image, token):
 
 # Title and description
 st.markdown("# 👔 Outfit Anyway: Best Customer Try-On You Ever See")
+st.markdown("**Join discord to know more about** [heybeauty prebuy vton solution](https://discord.com/invite/QgJWCtSG58)")
+
 # Initialize session state
 if 'processing' not in st.session_state:
     st.session_state.processing = False
