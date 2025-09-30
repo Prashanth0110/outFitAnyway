@@ -6,6 +6,7 @@ requests>=2.31.0
 func-timeout>=4.3.5
 numpy>=1.24.0
 Pillow>=10.0.0
+streamlit_utils
 
 # Optional: For AWS S3 storage
 # boto3>=1.28.0
